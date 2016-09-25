@@ -42,5 +42,11 @@ public class ArrayTest {
                 System.out.println(ints[i][j]);
             }
         }
+
+        for (int[] anInt : ints) {
+            for (int i : anInt) {
+                System.out.println(i);
+            }
+        }
     }
 }
